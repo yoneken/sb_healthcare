@@ -2,7 +2,7 @@
 Auto-correction of your health data from SB healthcare to Google spreadsheet
 
 ƒ\ƒtƒgƒoƒ“ƒN‚ÌƒXƒ}[ƒg‘Ì‘g¬Œv‚Å“¾‚ç‚ê‚ég‘Ì‚Ìó‘Ô‚ðGoogle Spreadsheet‚Éo—Í‚µ‚Ü‚·B
-SoftBank HealthCareƒT[ƒrƒX‚ÍI—¹‚µ‚Ä‚µ‚Ü‚Á‚½‚Ì‚ÅAƒXƒ}[ƒg‘Ì‘g¬Œv‚Ì‘ª’èƒf[ƒ^‚¾‚¯‚ð‰{——‚Å‚«‚éƒTƒCƒg‚©‚çƒXƒNƒŒƒCƒsƒ“ƒO‚µ‚Ü‚·B
+SoftBank HealthCareƒT[ƒrƒX‚ÍI—¹‚µ‚Ä‚µ‚Ü‚Á‚½‚Ì‚ÅA[ƒXƒ}[ƒg‘Ì‘g¬Œv‚Ì‘ª’èƒf[ƒ^‚¾‚¯‚ð‰{——‚Å‚«‚éƒTƒCƒg](https://healthcare.mb.softbank.jp/pc/web/assets/setup/web_login_top.php)‚©‚çƒXƒNƒŒƒCƒsƒ“ƒO‚µ‚Ü‚·B
 
 ## ‘Î‰žƒfƒoƒCƒX
 - 301SI ƒXƒ}[ƒg‘Ì‘g¬Œv
@@ -10,19 +10,19 @@ SoftBank HealthCareƒT[ƒrƒX‚ÍI—¹‚µ‚Ä‚µ‚Ü‚Á‚½‚Ì‚ÅAƒXƒ}[ƒg‘Ì‘g¬Œv‚Ì‘ª’èƒf[ƒ^‚
 
 ## ƒtƒ@ƒCƒ‹“à—e
 - README.md
-  à–¾‘‚«i‚±‚Ìƒtƒ@ƒCƒ‹j
+  - à–¾‘‚«i‚±‚Ìƒtƒ@ƒCƒ‹j
 - LICENSE
-  ƒ‰ƒCƒZƒ“ƒX•\‹L(BSD)
+  - ƒ‰ƒCƒZƒ“ƒX•\‹L(BSD)
 - main.gs
-  ƒƒCƒ“‚ÌƒXƒNƒŠƒvƒgB‚±‚ê‚ðGoogle Spreadsheet“à‚ÌƒXƒNƒŠƒvƒgƒGƒfƒBƒ^‚É’£‚è•t‚¯‚Ä‚­‚¾‚³‚¢B
+  - ƒƒCƒ“‚ÌƒXƒNƒŠƒvƒgB‚±‚ê‚ðGoogle Spreadsheet“à‚ÌƒXƒNƒŠƒvƒgƒGƒfƒBƒ^‚É’£‚è•t‚¯‚Ä‚­‚¾‚³‚¢B
 - account.gs
-  ƒƒCƒ“‚ÌƒXƒNƒŠƒvƒg‚©‚çŽQÆ‚³‚ê‚éƒAƒJƒEƒ“ƒgî•ñ‚ÌŠi”[ƒtƒ@ƒCƒ‹BŽ©•ª‚ÌƒfƒoƒCƒX‚É‡‚í‚¹‚ÄÝ’è‚µ‚Ä‚­‚¾‚³‚¢B‚±‚¿‚ç‚àGoogle Spreadsheet“à‚ÌƒXƒNƒŠƒvƒgƒGƒfƒBƒ^‚É’£‚è•t‚¯‚Ä‚­‚¾‚³‚¢B
+  - ƒƒCƒ“‚ÌƒXƒNƒŠƒvƒg‚©‚çŽQÆ‚³‚ê‚éƒAƒJƒEƒ“ƒgî•ñ‚ÌŠi”[ƒtƒ@ƒCƒ‹BŽ©•ª‚ÌƒfƒoƒCƒX‚É‡‚í‚¹‚ÄÝ’è‚µ‚Ä‚­‚¾‚³‚¢B‚±‚¿‚ç‚àGoogle Spreadsheet“à‚ÌƒXƒNƒŠƒvƒgƒGƒfƒBƒ^‚É’£‚è•t‚¯‚Ä‚­‚¾‚³‚¢B
 - sb_healthcare.py
-  ƒeƒXƒgŽž‚Éì‚Á‚½PythonŽÀ‘•B‘ª’èƒf[ƒ^‚ðŽæ“¾‚µ‚Ü‚·BGoogle Spreadsheet‚Ö‚Ì‘‚«ž‚Ý‹@”\‚Í‚ ‚è‚Ü‚¹‚ñB
+  - ƒeƒXƒgŽž‚Éì‚Á‚½PythonŽÀ‘•B‘ª’èƒf[ƒ^‚ðŽæ“¾‚µ‚Ü‚·BGoogle Spreadsheet‚Ö‚Ì‘‚«ž‚Ý‹@”\‚Í‚ ‚è‚Ü‚¹‚ñB
 - acconut.yaml.sample
-  PythonŽÀ‘•‚©‚çŽQÆ‚³‚ê‚éƒAƒJƒEƒ“ƒgî•ñ‚ÌŠi”[ƒtƒ@ƒCƒ‹B
+  - PythonŽÀ‘•‚©‚çŽQÆ‚³‚ê‚éƒAƒJƒEƒ“ƒgî•ñ‚ÌŠi”[ƒtƒ@ƒCƒ‹B
 - .gitignore
-  ƒ\[ƒXƒR[ƒhŠÇ——p‚ÌÝ’èƒtƒ@ƒCƒ‹
+  - ƒ\[ƒXƒR[ƒhŠÇ——p‚ÌÝ’èƒtƒ@ƒCƒ‹
   
 
 
