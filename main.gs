@@ -1,6 +1,5 @@
 ﻿function get_healthData(date, telno, user_id, pass){
   const login_url = 'https://healthcare.mb.softbank.jp/v3/web_login';
-  const home_url = 'https://healthcare.mb.softbank.jp/v3/web_home';
   const summary_url = 'https://healthcare.mb.softbank.jp/v3/web_api_get_home_summary';
   
   var payload = {"telno": telno, "user_id": user_id, "passwd": pass};
@@ -25,22 +24,19 @@
     options["headers"] = headers;
     //console.log(options);
     
-    response = UrlFetchApp.fetch(home_url, options);
+    response = UrlFetchApp.fetch(summary_url + "?date=" + date, options);
     if(response.getResponseCode() == "200"){
-      response = UrlFetchApp.fetch(summary_url + "?date=" + date, options);
-      if(response.getResponseCode() == "200"){
-        //console.log(response.getContentText("UTF-8"));
-        health_data = JSON.parse(response.getContentText("UTF-8"));
-        health["Weight"] = health_data.root.weight;
-        health["Bodyfat"] = health_data.root.bodyfat;
-        health["BMI"] = health_data.root.bmi;
-        health["BMR"] = health_data.root.bmr;
-        health["BodyAge"] = health_data.root.bodyage;
-        health["Muscle"] = health_data.root.muscle;
-        health["Bone"] = health_data.root.bone;
-        health["Visceralfat"] = health_data.root.visceralfat;
-        health["TBW"] = health_data.root.tbw;
-      }
+      //console.log(response.getContentText("UTF-8"));
+      health_data = JSON.parse(response.getContentText("UTF-8"));
+      health["Weight"] = health_data.root.weight;
+      health["Bodyfat"] = health_data.root.bodyfat;
+      health["BMI"] = health_data.root.bmi;
+      health["BMR"] = health_data.root.bmr;
+      health["BodyAge"] = health_data.root.bodyage;
+      health["Muscle"] = health_data.root.muscle;
+      health["Bone"] = health_data.root.bone;
+      health["Visceralfat"] = health_data.root.visceralfat;
+      health["TBW"] = health_data.root.tbw;
     }
   }
   return health;
